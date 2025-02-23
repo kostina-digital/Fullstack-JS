@@ -1,3 +1,7 @@
+h1{
+    color: rgb(177, 1, 39);
+    }
+
 .content {
     background-color: aqua;
 }
@@ -7,7 +11,8 @@
 }
 
 input[type="text"] {
-    color: rgb(177, 1, 39);
+    border-color: rgb(177, 1, 39);
+    border-width: 4px;
 }
 
 div {
@@ -31,5 +36,6 @@ section p.combo {
 }
 
 p.combo__example {
-    background-color: rgb(248, 207, 207);
+    color: rgb(248, 207, 207);
+    font-size: 40px;
 }
