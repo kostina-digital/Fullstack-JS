@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Home Work 3
+    </title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>
+            Home Work 3
+        </h1>
+        <p style="background-color: rgb(95, 95, 254);">
+            Inline style має найбільшу специфічність, тому він переважає всі інші стилі.
+            вага 1 0 0 0
+        </p>
+    </div>
+
+    <div class="content">
+        <p>
+            специфічність класу має вагу 0 0 1 0
+        </p>
+    </div>
+
+    <p id="id__text">
+         специфічність селекторів через ID переважає над класами, але нижче за специфічність inline стилів.
+        0 1 0 0
+    </p>
+
+    <form>
+        <input type="text">
+        специфічність селекторів через атрибути має вагу 0 0 1 0
+    </form>
+
+    <div>
+        <p>
+            специфічність через елементи та псевдоелементи має найнижчу вагу
+            вага 0 0 0 1
+        </p>
+    </div>
+
+    <div>
+        <p class="selector">
+            вкладені селектори. Застосовується до всіх елементів з class="selector", які знаходяться всередині діва
+            вага 0 0 1 1
+        </p>
+    </div>
+
+    <ul>
+        <li>
+            <p>
+                дочірні селектори
+            </p>
+        </li>
+        <li>
+            <p>
+                задній фон застосовується до всіх дочірніх селекторів, які
+            </p>
+        </li>
+        <li>
+            <p>
+                є безпосередніми дочірніми елементами li, що знаходяться в ul
+                вага 0 0 0 3
+            </p>
+        </li>
+    </ul>
+
+    <p class="class-1 class-2">
+        якщо елемент має обидва класи, то відбувається заміна кольору заднього фону на коричневий:
+        вага 0 0 2 0
+    </p>
+
+    <section>
+        <p class="combo">
+            комбінація тегів section, p та класа combo. вага 0 0 2 1
+        </p>
+    </section>
+
+    <div class="combo__example">
+        <p>
+            комбінація класу combo__example та тегу p. вага 0 0 1 1
+        </p>
+
+    </div>
+</body>
+
+</html>

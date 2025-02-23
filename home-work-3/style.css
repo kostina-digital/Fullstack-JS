@@ -1,0 +1,35 @@
+.content {
+    background-color: aqua;
+}
+
+#id__text {
+    background-color: violet;
+}
+
+input[type="text"] {
+    color: rgb(177, 1, 39);
+}
+
+div {
+    background-color: rgb(132, 119, 171);
+}
+
+div .selector {
+    background-color: rgb(243, 243, 99);
+}
+
+ul>li>p {
+    background-color: green;
+}
+
+.class-1.class-2 {
+    background-color: rgb(112, 67, 9);
+}
+
+section p.combo {
+    background-color: rgb(111, 15, 202);
+}
+
+p.combo__example {
+    background-color: rgb(248, 207, 207);
+}
