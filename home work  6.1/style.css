@@ -1,0 +1,54 @@
+.table-widht-75 {
+    border-spacing: 0;
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+.table-widht-90 {
+    border-spacing: 0;
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.table-widht-80 {
+    border-spacing: 0;
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+.table__data {
+    border: 2px solid black;
+    height: 50px;
+    width: 33.33%;
+    text-align: center;
+}
+
+.table__data--200 {
+    height: 200px;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.widht-60 {
+    width: 60%;
+}
+
+.widht-40 {
+    width: 40%;
+}
+
+.widht-28 {
+    width: 28%;
+}
+
+.widht-72 {
+    width: 72%;
+}
