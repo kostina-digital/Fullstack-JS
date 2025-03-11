@@ -18,6 +18,7 @@
     border-collapse: collapse;
     width: 80%;
 }
+
 .table__data {
     border: 2px solid black;
     height: 50px;
